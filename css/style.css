@@ -1,0 +1,57 @@
+
+body {
+	font-family: 'Capriola', sans-serif;
+	background-image:url('bg.jpg');
+}
+
+#topMonth {
+	background-color: #969090;
+}
+
+#main {
+	background-color:#36393D;
+	max-width: 70%;
+	min-width: 600px;
+	max-height: 370px;
+}
+
+#adSpace{
+	background-color: #969090;
+	max-height: 300px;
+	float: right;
+	max-width: 150px;
+	position: absolute;
+	right: 40px;
+	top:80px;
+}
+
+#toDo {
+	background-color: #cccccc;
+	max-height: 300px;
+	max-width: 150px;
+	padding: 6px;
+	opacity: 0.6;
+	border-radius: 6px;
+	overflow: auto;
+
+}
+
+#toDo p {
+	font-size: x-small;
+}
+
+#footer {
+	background-color: #cccccc;
+	width: 100%;
+	margin-top: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	min-width: 100%;
+	opacity: 0.7;
+}
+
+#footer p{
+	text-align: center;
+}
+
